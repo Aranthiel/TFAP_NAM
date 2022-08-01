@@ -1,0 +1,23 @@
+Proyecto Final de #YoProgramo la 2da etapa de #ArgentinPrograma
+Objetivos:
+-frontend :
+
+    Correcta carga de todos los componentes de la web
+    Funcionamiento de los botones de navegación y links
+    Uso de Angular como framework
+    Comunicación con el backend para el consumo y modificación de datos.
+
+
+-backend:
+
+    Correcta implementación de APIs y uso de los correspondientes endpoints
+    Funcionamiento general
+    Correcta realización de CRUDS
+    Utilización de Spring Boot como framework
+    DER (Diagrama entidad relación) del proyecto completo.
+
+📌 Plataformas para deployar/desplegar cada una de las partes de mi aplicación
+
+    Para el frontend se recomienda Firebase
+    Para el backend heroku
+    Para las bases de datos (mysql) Clever cloud
