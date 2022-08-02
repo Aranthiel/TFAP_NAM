@@ -1,0 +1,11 @@
+div {
+  width: 1750px;
+  height: 732px ;
+  /*max-height: 15rem;*/
+  padding:0px;
+  margin:auto;
+  background-color: none;
+  /*background:url(../../../assets/NAM_BannerWIDE.png);*/
+  background-image: url(../../../assets/NAM_BannerM.png);
+  display:flex;
+}
