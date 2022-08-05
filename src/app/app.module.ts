@@ -5,12 +5,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeadderComponent } from './components/headder/headder.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
+import { SocialNetsComponent } from './components/social-nets/social-nets.component';
+import { LinkedinComponent } from './components/linkedin/linkedin.component';
+import { WspComponent } from './components/wsp/wsp.component';
+import { TwitterComponent } from './components/twitter/twitter.component';
+import { InstagramComponent } from './components/instagram/instagram.component';
+import { FacebookComponent } from './components/facebook/facebook.component';
+import { LogInComponent } from './components/log-in/log-in.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadderComponent,
-    LogoAPComponent
+    LogoAPComponent,
+    SocialNetsComponent,
+    LinkedinComponent,
+    WspComponent,
+    TwitterComponent,
+    InstagramComponent,
+    FacebookComponent,
+    LogInComponent
   ],
   imports: [
     BrowserModule,
