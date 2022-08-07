@@ -1,4 +1,4 @@
-div {
+#banner {
   width: 1750px;
   height: 732px ;
   /*max-height: 15rem;*/
@@ -7,11 +7,42 @@ div {
   background-color: none;
   /*background:url(../../../assets/NAM_BannerWIDE.png);*/
   background-image: url(../../../assets/NAM_BannerM.png);
-  display:flex;
+  display:inline-block;
   justify-content:space-between;
 }
 
 app-social-nets{
   /*background-color: yellow;*/
   justify-self: flex-end;
+  }
+  app-log-in{
+    align-self: flex-end;
+    justify-self: flex-start;
+    justify-content: flex-end;
+    /*background-color: purple;*/
+  }
+
+  #row1{
+    /*background-color: pink;*/
+    width: 1750px;
+    height: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-self: flex-start;
+  }
+  #row2{
+    /*background-color: purple;*/
+    width: 1750px;
+    height: 580px;
+    display:flex;
+    justify-content:flex-end;
+    align-self: center;
+  }
+  #row3{
+    /*background-color: orchid;*/
+    height: 52px;
+    width: 1750px;
+    display:flex;
+    justify-content:space-between;
+    align-self: flex-end;
   }
