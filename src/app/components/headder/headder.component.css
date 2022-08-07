@@ -33,15 +33,17 @@ app-social-nets{
   #row2{
     /*background-color: purple;*/
     width: 1750px;
-    height: 580px;
+    height: 480px;
     display:flex;
     justify-content:flex-end;
     align-self: center;
   }
   #row3{
     /*background-color: orchid;*/
-    height: 52px;
-    width: 1750px;
+    padding-left: 100px;
+    padding-right: 600px;
+    height: 100px;
+    width: 850px;
     display:flex;
     justify-content:space-between;
     align-self: flex-end;

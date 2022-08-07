@@ -12,6 +12,7 @@ import { TwitterComponent } from './components/twitter/twitter.component';
 import { InstagramComponent } from './components/instagram/instagram.component';
 import { FacebookComponent } from './components/facebook/facebook.component';
 import { LogInComponent } from './components/log-in/log-in.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LogInComponent } from './components/log-in/log-in.component';
     TwitterComponent,
     InstagramComponent,
     FacebookComponent,
-    LogInComponent
+    LogInComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
