@@ -8,6 +8,10 @@ div {
   /*background:url(../../../assets/NAM_BannerWIDE.png);*/
   background-image: url(../../../assets/NAM_BannerM.png);
   display:flex;
+  justify-content:space-between;
 }
 
-
+app-social-nets{
+  /*background-color: yellow;*/
+  justify-self: flex-end;
+  }

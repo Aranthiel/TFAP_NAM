@@ -1,5 +1,8 @@
 div{
+  display:inline-flex;
+  max-height: 75px;
+  width: 550px;
   justify-content: space-around;
-  background-color: aqua;
-
+  margin-top: 15px;
+  /*background-color: aqua;*/
 }
