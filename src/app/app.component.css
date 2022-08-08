@@ -12,3 +12,10 @@ html{
 }
 /*AGREGAR ESTA PARTE Al inicio de  TODOS LOS ARCHIVOS CSS*/
 /* usar rem como unidad de edida para las dimensiones no spermite tener un mejor control del tamaño*/
+body{
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+}

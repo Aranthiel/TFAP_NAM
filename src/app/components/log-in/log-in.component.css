@@ -1,5 +1,8 @@
 div{
+  height: 40vh;
   /*background-color: yellowgreen;*/
   margin: 20px;
-  align-self: center;
+  display: flex;
+  align-items: flex-end;
+
 }

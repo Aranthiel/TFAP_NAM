@@ -1,12 +1,20 @@
+
+@media (min-width:576px){
+.container-fluid{
+  width:90vw;
+  margin:0px auto;
+}
 #banner {
-  width: 1750px;
-  height: 732px ;
+  width: 90vw;
+  height:56vh;
   /*max-height: 15rem;*/
   padding:0px;
   margin:auto;
   background-color: none;
   /*background:url(../../../assets/NAM_BannerWIDE.png);*/
-  background-image: url(../../../assets/NAM_BannerM.png);
+  background-image: url(../../../assets/NAM_BannerWIDE.png);
+  background-repeat: no-repeat;
+  background-size:contain;
   display:inline-block;
   justify-content:space-between;
 }
@@ -24,27 +32,28 @@ app-social-nets{
 
   #row1{
     /*background-color: pink;*/
-    width: 1750px;
-    height: 100px;
+    width: 90vw;
     display:flex;
     justify-content:space-between;
     align-self: flex-start;
   }
   #row2{
     /*background-color: purple;*/
-    width: 1750px;
-    height: 480px;
+    width: 90vw;
     display:flex;
     justify-content:flex-end;
     align-self: center;
   }
   #row3{
     /*background-color: orchid;*/
-    padding-left: 100px;
-    padding-right: 600px;
-    height: 100px;
-    width: 850px;
+
+    width: 50vw;
+    position:absolute;
+    top:44.5vh;
     display:flex;
     justify-content:space-between;
     align-self: flex-end;
   }
+
+}
+@media (min-width:576px)

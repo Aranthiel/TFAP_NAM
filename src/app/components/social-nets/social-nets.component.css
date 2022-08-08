@@ -1,7 +1,7 @@
 div{
   display:inline-flex;
-  max-height: 75px;
-  width: 550px;
+  box-sizing: border-box;
+  width:30vw;
   justify-content: space-around;
   margin-top: 15px;
   /*background-color: aqua;*/
