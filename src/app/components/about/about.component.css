@@ -1,9 +1,14 @@
 *{
   color: #373b41;
-  font-size:0.73vw;
-  margin-top: 1.5vh;
+  font-size:0.7vw;
+
 }
 
 #title{
+  margin-top: 1.5vh;
   font-weight: bold;
+  font-size: 0.9vw;
+}
+p{
+
 }

@@ -1,59 +1,72 @@
 
-@media (min-width:576px){
+@media (min-width:576px){/*
 .container-fluid{
   width:90vw;
   margin:0px auto;
+}*/
+#banner{
+  position:relative;
 }
-#banner {
-  width: 90vw;
-  height:56vh;
-  /*max-height: 15rem;*/
+.row {
   padding:0px;
-  margin:auto;
-  background-color: none;
-  /*background:url(../../../assets/NAM_BannerWIDE.png);*/
-  background-image: url(../../../assets/NAM_BannerWIDE.png);
-  background-repeat: no-repeat;
-  background-size:contain;
-  display:inline-block;
-  justify-content:space-between;
+  left:10px
+}
+
+#row1{
+  /* tiene app-logo-ap en la primer columna y app-social-nets en la segunda columna*/
+  /*background-color: pink;*/
+  display:flex;
+  justify-content:space-around;
+  position: absolute;
+  top:0px;
+  left:0px
+}
+app-logo-ap{
+  position: absolute;
+  left: 0px;
+  top:0.5rem;
+  margin-left: 1.5rem;
 }
 
 app-social-nets{
-  /*background-color: yellow;*/
-  justify-self: flex-end;
-  }
-  app-log-in{
-    align-self: flex-end;
-    justify-self: flex-start;
-    justify-content: flex-end;
-    /*background-color: purple;*/
-  }
-
-  #row1{
-    /*background-color: pink;*/
-    width: 90vw;
-    display:flex;
-    justify-content:space-between;
-    align-self: flex-start;
-  }
-  #row2{
-    /*background-color: purple;*/
-    width: 90vw;
-    display:flex;
-    justify-content:flex-end;
-    align-self: center;
-  }
-  #row3{
-    /*background-color: orchid;*/
-
-    width: 50vw;
-    position:absolute;
-    top:44.5vh;
-    display:flex;
-    justify-content:space-between;
-    align-self: flex-end;
-  }
-
+  position: absolute;
+  right: 0px;
+  top:0.5rem;
+  /*background-color: aqua;*/
 }
+app-log-in{
+  /*background-color: purple;*/
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+app-about{
+  position:absolute;
+  top:80%;
+  width:54%;
+  left:1.5rem;
+  /*background-color:forestgreen;*/
+}
+#row2{
+  /* esta fila tiene vavcìa la primer columna y tiene el boton login en la segunda columna*/
+  background-color: purple;
+  position: absolute;
+
+  width: inherit;
+  display:flex;
+  justify-content:flex-end;
+  align-self: center;
+}
+#row3{
+  /* esta fila contiene el app-about en la primer columna y la segunda columna esta vacía*/
+  background-color: orchid;
+  width: 50vw;
+  position:absolute;
+  top:44.5vh;
+  display:flex;
+  justify-content:space-between;
+  align-self: flex-end;
+}
+
+}/* fin del media query*/
 @media (min-width:576px)

@@ -1,8 +1,7 @@
 div{
   display:inline-flex;
-  box-sizing: border-box;
   width:30vw;
   justify-content: space-around;
-  margin-top: 15px;
+  vertical-align: center;
   /*background-color: aqua;*/
 }

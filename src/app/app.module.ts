@@ -13,6 +13,9 @@ import { InstagramComponent } from './components/instagram/instagram.component';
 import { FacebookComponent } from './components/facebook/facebook.component';
 import { LogInComponent } from './components/log-in/log-in.component';
 import { AboutComponent } from './components/about/about.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { AboutComponent } from './components/about/about.component';
     InstagramComponent,
     FacebookComponent,
     LogInComponent,
-    AboutComponent
+    AboutComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
