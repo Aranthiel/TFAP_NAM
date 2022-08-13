@@ -1,17 +1,17 @@
-
+div.container-fluid{
+  padding:0px;
+}
 @media (min-width:576px){/*
 .container-fluid{
   width:90vw;
   margin:0px auto;
 }*/
-#banner{
-  position:relative;
-  max-height: 444px;
-  width:100%;
-}
-div.container-fluid{
-  padding:0px;
-}
+  #banner{
+    position:relative;
+    max-height: 444px;
+    width:100%;
+  }
+
 .row {
   padding:0px;
   left:10px
@@ -75,5 +75,26 @@ app-about{
   }
 }/* fin del media query*/
 @media (max-width:575px){
+  #banner{
+    position:relative;
+    width:100%;
+  }
+
+app-logo-ap{
+  display:none;
+}
+
+app-log-in{
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  margin-left: 1.5%;
+}
+app-social-nets{
+  position: absolute;
+  right: 0px;
+  top:5px;
+  /*background-color: aqua;*/
+}
 
 }

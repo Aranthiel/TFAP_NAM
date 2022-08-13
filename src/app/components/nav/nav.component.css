@@ -11,3 +11,6 @@ div{
   border-top: 1px solid #efbf2d;
   margin-top:0px;
 }
+.navbar-expand-sm .navbar-collapse {
+  justify-content: flex-end;
+}
