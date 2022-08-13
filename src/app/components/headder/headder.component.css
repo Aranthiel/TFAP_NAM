@@ -6,6 +6,11 @@
 }*/
 #banner{
   position:relative;
+  max-height: 444px;
+  width:100%;
+}
+div.container-fluid{
+  padding:0px;
 }
 .row {
   padding:0px;
@@ -24,32 +29,33 @@
 app-logo-ap{
   position: absolute;
   left: 0px;
-  top:0.5rem;
-  margin-left: 1.5rem;
+  top:5%;
+  margin-left: 1.5%;
 }
 
 app-social-nets{
   position: absolute;
   right: 0px;
-  top:0.5rem;
+  top:5%;
   /*background-color: aqua;*/
 }
 app-log-in{
   /*background-color: purple;*/
   position: absolute;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  bottom: 2.5%;
+  right:1.5%;
 }
 app-about{
   position:absolute;
-  top:80%;
+  line-height:55%;
+  bottom: 0%;
   width:54%;
-  left:1.5rem;
+  left:1.5%;
   /*background-color:forestgreen;*/
 }
 #row2{
   /* esta fila tiene vavcìa la primer columna y tiene el boton login en la segunda columna*/
-  background-color: purple;
+  /*background-color: purple;*/
   position: absolute;
 
   width: inherit;
@@ -59,14 +65,15 @@ app-about{
 }
 #row3{
   /* esta fila contiene el app-about en la primer columna y la segunda columna esta vacía*/
-  background-color: orchid;
+  /*background-color: orchid;*/
   width: 50vw;
   position:absolute;
   top:44.5vh;
   display:flex;
   justify-content:space-between;
   align-self: flex-end;
-}
-
+  }
 }/* fin del media query*/
-@media (min-width:576px)
+@media (max-width:575px){
+
+}

@@ -1,14 +1,28 @@
 *{
   color: #373b41;
-  font-size:0.7vw;
 
 }
 
 #title{
-  margin-top: 1.5vh;
+  margin-top: 1%;
+  margin-bottom: 1%;
   font-weight: bold;
-  font-size: 0.9vw;
+  font-size: 75%;
 }
-p{
 
+.container-fluid {
+  background-color: aquamarine;
+  box-sizing: content-box;
+  max-height: 85px;
+  padding-bottom: 0px;
+  margin:0px;
+
+}
+
+p{
+  margin-bottom: 1%;
+  font-size: 53%;
+}
+p#cuerpo{
+  margin:0px 0px 0px;
 }

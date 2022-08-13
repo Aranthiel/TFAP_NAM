@@ -1,7 +1,10 @@
 div{
-  height: 40vh;
+  height: 10%;
+  width: 10vw;
   /*background-color: yellowgreen;*/
-  margin: 20px;
+  margin: auto;
   display: flex;
-  align-items: flex-end;
+  justify-content:flex-end;
+  /*align-items: flex-end;*/
+
 }
