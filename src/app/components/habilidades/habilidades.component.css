@@ -25,7 +25,7 @@ body {font: 90%/1.5 Arial;background: #f1f1f2;text-align: center;}
 .pie:nth-child(3) {background-color: #efbf2d;}
 .pie:nth-child(4) {background-color: #efbf2d;}
 .pie:nth-child(5) {background-color: #efbf2d;}
-.big {font-size: 200%; display:flex; justify-content: space-between;} /*se desacomodan a 991px */
+.big {font-size: 200%; display:flex; justify-content: space-between; flex-wrap: wrap;} /*se desacomodan a 991px */
 .med {font-size: 150%;}
 .sml {font-size: 100%;}
 
@@ -38,3 +38,10 @@ body {font: 90%/1.5 Arial;background: #f1f1f2;text-align: center;}
 
 .title{font-size:24px;font-weight:600;color:#373b41;text-transform:uppercase;margin:10px 35px 5px }
 .description{font-size:14px; font-weight:600; color:#373b41;margin:0px; text-align:center; text-transform:uppercase}
+
+circle-progress{
+  /*background-color: green;*/
+}
+.skill{
+  /*background-color: purple;*/
+}
