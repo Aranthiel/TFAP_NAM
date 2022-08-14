@@ -19,6 +19,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     EducacionComponent,
     BannerComponent,
     NavComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
