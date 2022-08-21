@@ -1,22 +1,38 @@
-<!--<div id="posteo" class="container-fluid">
+<div class="container">
   <h2 id="title">EXPERIENCIA LABORAL</h2>
-  <article class="post">
-      <div class="row">
-        <div class="col-2"><h3>Empresa</h3></div>
+  <div class="row">
+      <div class="col-md-12">
+          <div class="main-timeline4">
+              <div *ngFor="let elemento of misExperiencias; let i=index" class="timeline">
+                  <a href="#" class="timeline-content">
+                      <span class="year">{{elemento.anio_inicio}}</span>
+                      <div class="inner-content">
+                          <h3 class="title">{{elemento.puesto}}</h3>
+                          <div class="row description">
+                            <div class="col-md-12">
+                              <p><strong>Empresa: </strong> {{elemento.empresa}} </p>
+                            </div>
+
+                          </div>
+                          <div class="row comentario">
+                            <div class="col-md-6">
+                              <p><strong>Inicio: </strong>{{elemento.fecha_inicio}}</p>
+                            </div>
+                            <div class="col-md-6">
+                              <p><strong>Fin: </strong>{{elemento.fecha_fin}}</p>
+                            </div>
+                          </div>
+                          <p class="information">
+                            {{elemento.descripcion}}
+                          </p>
+                      </div>
+                  </a>
+              </div>
+          </div>
       </div>
-      <div class="row">
-        <div class="col"><span class="date">Periodo</span></div>
-      </div>
-      <h5>Puesto:</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, eos. Quia adipisci molestias quaerat asperiores quis magnam quam, vel veritatis officiis beatae iusto eos quae minima rerum hic, recusandae vitae.
-      Cum maxime minus nihil similique, quod temporibus accusantium repellendus, aliquid neque ratione doloremque aspernatur quam quibusdam. Est sunt doloremque id. Delectus quod aspernatur amet vero accusantium. Molestias a assumenda repellendus?
-      Veniam distinctio magni dolorem inventore eaque. Aspernatur dicta quis odit quam quidem a aut molestias mollitia pariatur odio autem cum, similique voluptatem adipisci tempore fugit nisi accusamus officia rem consectetur.</p>
-      <a href="#" class="btn-more">leer más</a>
-  </article>
+  </div>
 </div>
--->
-
-
+<!--
 <div class="container">
   <h2 id="title">EXPERIENCIA LABORAL</h2>
   <div class="row">
@@ -70,3 +86,4 @@
       </div>
   </div>
 </div>
+-->

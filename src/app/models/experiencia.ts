@@ -12,8 +12,9 @@ export class Experiencia {
   public persona_id: number, // este elemento hace referencia  a la clase Persona
   public puesto:string,
   public empresa:string,
-  public fecha_inicio: Date,
-  public fecha_fin: Date,
+  public fecha_inicio: string,
+  public anio_inicio:string,
+  public fecha_fin: String,
   public descripcion:string,
   ){}
 }
