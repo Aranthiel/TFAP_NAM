@@ -12,8 +12,8 @@ export class Educacion {
   public persona_id: number, // este elemento hace referencia  a la clase Persona
   public carrera:string,
   public institucion:string,
-  public anio_inicio: Date,
-  public anio_fin: Date,
+  public anio_inicio: string,
+  public anio_fin: string,
   public tipo_educacion:string, // este elemento hace referencia a la clase TipoEducacion
   public estado:string, // este elemento hace referencia a la clase EstadoEducacion
   ){}

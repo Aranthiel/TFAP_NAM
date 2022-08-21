@@ -3,43 +3,59 @@
   <div class="row">
     <div class="col-md-12 timeline-content">
       <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
+        <div *ngFor="let elemento of misEstudios; let i=index" class="accordion-item">
           <h4 class="accordion-header" id="panelsStayOpen-headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              Accordion Item #1
+              <h3 class="title">{{elemento.carrera}}</h3>
             </button>
           </h4>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h4 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              Accordion Item #2
-            </button>
-          </h4>
-          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h4 class="accordion-header" id="panelsStayOpen-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              Accordion Item #3
-            </button>
-          </h4>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <div class="row description">
+                <div class="col-md-8">
+                  <p><strong>Institución: </strong> {{elemento.institucion}} </p>
+                </div>
+                <div class="col-md-4">
+                  <p><strong>Nivel: </strong>{{elemento.tipo_educacion}}</p>
+                </div>
+
+              </div>
+              <div class="row information">
+                <div class="col-md-4">
+                  <p><strong>Estado: </strong>{{elemento.estado}} </p>
+                </div>
+                <div class="col-md-4">
+                  <p><strong>Inicio: </strong>{{elemento.anio_inicio}}  </p>
+                </div>
+                <div class="col-md-4">
+                  <p><strong>Fin: </strong>{{elemento.anio_fin}}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+    </div>
 </div>
+<!--
+  <div class="container">
+    <h2 id="title"> Proyectos</h2>
+    <div class="row">
+      <div *ngFor="let elemento of misProyectos; let i=index" class="row proyecto" id="Proyecto1">
+        <div class="col-md-4 timeline-content">
+          <a href="{{ elemento.url_repositorio}}"> <img src= "{{ elemento.url_captura }}" alt="{{ elemento.titulo}}" class="img-fluid"> </a>
+
+        </div>
+        <div class="col-md-8 timeline-content">
+            <div class="inner-content">
+              <h3 class="title">{{ elemento.titulo}}</h3>
+              <p class="description">
+                  {{elemento.descripcion}}
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+-->

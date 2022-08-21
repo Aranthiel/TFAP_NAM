@@ -7,10 +7,6 @@ import { Proyecto } from '../../models/proyecto';
 })
 export class ProyectosComponent implements OnInit {
   public misProyectos:Array<Proyecto>;
-  public titulo:string ="Esto es un titulo guardado en una variable";
-  public miArray:Array<any> = [1,2,3,4,5];
-  public zapatilla:Proyecto= new Proyecto (0, 0, "titulo proyecto", "captura", "descripcion", "repositorio");
-
 
   constructor() {
     this.misProyectos= [

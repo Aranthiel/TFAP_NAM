@@ -30,3 +30,6 @@ h4{
 .accordion-item .accordion-button {
   background-color: #efbf2d;
 }
+.title{font-size:24px;font-weight:600;color:#373b41;text-transform:uppercase; margin:10px }
+.description{font-size:14px; font-weight:600; color:#373b41; text-align:start; text-transform:uppercase; margin-left:10px; margin-right:10px}
+.information{font-size:14px; color:#373b41; text-align:start; margin-left:10px; margin-right:10px }
