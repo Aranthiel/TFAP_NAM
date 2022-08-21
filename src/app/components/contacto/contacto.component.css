@@ -1,0 +1,31 @@
+*{
+  color: #373b41;
+
+}
+
+#title{
+  margin-top: 2rem;
+  margin-bottom: 1%;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+.row{
+  vertical-align: end;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  background-color:#efbf2d;
+}
+.btn{
+  font-weight: bold;
+  text-transform:uppercase;
+  background-color: #373b41;
+  border-radius: 15PX;
+  width: 10rem;
+  color: #efbf2d;
+  margin:1rem;
+}

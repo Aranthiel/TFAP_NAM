@@ -20,6 +20,9 @@ import { NavComponent } from './components/nav/nav.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { ResgisterComponent } from './components/resgister/resgister.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +42,10 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     BannerComponent,
     NavComponent,
     HabilidadesComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    FooterComponent,
+    ContactoComponent,
+    ResgisterComponent,
   ],
   imports: [
     BrowserModule,
