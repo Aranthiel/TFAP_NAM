@@ -12,6 +12,7 @@
 .row{
   vertical-align: end;
   justify-content: center;
+  margin-top: 20px;
 }
 a{
   text-decoration: none;
@@ -28,4 +29,7 @@ a{
   width: 10rem;
   color: #efbf2d;
   margin:1rem;
+}
+.social {
+  margin-top: 20px;
 }

@@ -11,7 +11,7 @@ import { WspComponent } from './components/wsp/wsp.component';
 import { TwitterComponent } from './components/twitter/twitter.component';
 import { InstagramComponent } from './components/instagram/instagram.component';
 import { FacebookComponent } from './components/facebook/facebook.component';
-import { LogInComponent } from './components/log-in/log-in.component';
+import { LogInComponent } from './components/btn-login/btn-login.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
@@ -22,7 +22,9 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
-import { ResgisterComponent } from './components/resgister/resgister.component';
+import { RegisterComponent } from './components/register/register.component';
+import { HttpClientModule  } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -45,10 +47,12 @@ import { ResgisterComponent } from './components/resgister/resgister.component';
     ProyectosComponent,
     FooterComponent,
     ContactoComponent,
-    ResgisterComponent,
+    RegisterComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
       // set defaults here

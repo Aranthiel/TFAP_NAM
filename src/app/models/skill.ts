@@ -1,4 +1,4 @@
-// se debe colocar la palabra reservada importe para acceder a la clase PERSONA
+// se debe colocar la palabra reservada import para acceder a la clase PERSONA
 
 import {Persona} from "../models/persona";
 
