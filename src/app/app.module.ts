@@ -21,10 +21,12 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
-import { RegisterComponent } from './components/register/register.component';
+import { ContactPageComponent} from './pages/contactpage/contactpage.component';
+import { RegisterComponent } from './pages/register/register.component';
 import { HttpClientModule  } from '@angular/common/http';
-import { HomeComponent } from './components/home/home.component';
+import { HomePageComponent } from './pages/homepage/homepage.component';
+import { LoginComponent } from './pages/login/login.component';
+import { ContactformComponent } from './components/contactform/contactform.component';
 
 @NgModule({
   declarations: [
@@ -46,9 +48,11 @@ import { HomeComponent } from './components/home/home.component';
     HabilidadesComponent,
     ProyectosComponent,
     FooterComponent,
-    ContactoComponent,
+    ContactPageComponent,
     RegisterComponent,
-    HomeComponent,
+    HomePageComponent,
+    LoginComponent,
+    ContactformComponent,
   ],
   imports: [
     BrowserModule,

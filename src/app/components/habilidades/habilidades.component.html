@@ -1,5 +1,6 @@
-<div class="container">
+<div class="container" id="skills">
     <h2 id="title"> Habilidades</h2>
+    <!--
     <div class="row">
       <h3 class="title">Hard Skills</h3>
       <div class="col-md-12 timeline-content">
@@ -219,5 +220,40 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <div class="row">
+      <h3 class="title">Discos animados Angular con interpolación </h3>
+      <div class="col-md-12 timeline-content">
+          <div class="big">
+              <div *ngFor="let elemento of misHardSkills; let i=index" class="skill">
+                <p class="description">
+                   {{elemento.nombreSkill}}
+                </p>
+                <circle-progress
+        [percent]="85"
+        [radius]="50"
+        [outerStrokeWidth]="12"
+        [innerStrokeWidth]="5"
+        [clockwise]="false"
+        [responsive]="false"
+        [showUnits]="false"
+        [showTitle]="false"
+        [showSubtitle]="false"
+        [showImage]="true"
+        [titleFontSize]=" '35' "
+        [imageSrc]="'../../../assets/gangxxs.png'"
+        [imageHeight]="50"
+        [imageWidth]="50"
+        [titleColor]=" '#373b41' "
+        [outerStrokeColor]="'#df7f00'"
+        [innerStrokeColor]="'#efbf2d'"
+        [animation]="true"
+        [animationDuration]="1200"
+      ></circle-progress>
+              </div>
+          </div>
+      </div>
+  </div>
+
 </div>

@@ -3,13 +3,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomePageComponent } from './pages/homepage/homepage.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
-import { RegisterComponent } from './components/register/register.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { LoginComponent } from './pages/login/login.component';
+import { ContactPageComponent} from './pages/contactpage/contactpage.component'
 
 const routes: Routes = [
-  {    path:'', component: HomeComponent   },
+  {    path:'', component: HomePageComponent   },
   {    path:'registro', component: RegisterComponent   },
+  {    path:'login', component: LoginComponent   },
+  {    path:'contact', component: ContactPageComponent   },
   {    path:'jobs', component: ExperienciaComponent   },
   {    path:'education', component: EducacionComponent   },
   {    path:'skills', component: HabilidadesComponent   },

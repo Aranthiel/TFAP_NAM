@@ -6,16 +6,14 @@ import {Persona} from "../models/persona";
 // las clases llevan el nombre en SINGULAR y siempre comienzan con MAYUSCULAS
 
 
-export class Experiencia {
+export class Habilidad {
   constructor(
   public skill_id: number,
   public persona_id: number, // este elemento hace referencia a la clase Persona
-  public tipo_skill_id: number, // este elemento hace referencia a la clase TipoSkill
-  public nivel_skill_id: number, // este elemento hace referencia a la clase NivelSkill
-  public puesto:string,
-  public empresa:string,
-  public fecha_inicio: Date,
-  public fecha_fin: Date,
-  public descripcion:string,
+  public tipo_skill_id: number, // este elemento hace referencia a la clase TipoSkill sera 0 para Hard y 1 para soft
+  public nivel_skill_id: number, // este elemento hace referencia a la clase NivelSkill --
+  public nombreSkill:string,
+  public porcentaje:number,
+  public urlIcono: String,
   ){}
 }
