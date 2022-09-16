@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Proyecto } from '../../models/proyecto';
+
+
 @Component({
   selector: 'app-proyectos',
   templateUrl: './proyectos.component.html',
@@ -12,9 +14,10 @@ export class ProyectosComponent implements OnInit {
     this.misProyectos= [
       new Proyecto (0, 0, "primer proyecto", "captura", "descripcion", "repositorio"),
       new Proyecto (1, 0, "Clon Portfolio", "../../../assets/clonPortfolio.png", "descripcion", "https://github.com/Aranthiel/PortfolioConBootstrap"),
-      new Proyecto (2, 0, "Clon Google", "../../../assets/ClonInicioGoogle.png", "descripcion", "https://github.com/Aranthiel/ClonGoogleMainPage"),
+      new Proyecto (2, 0, "Clon Google", "../../../assets/Platzi_01.png", "descripcion", "https://github.com/Aranthiel/ClonGoogleMainPage"),
       new Proyecto (3, 0, "Clon Nintendo con Boostrap", "../../../assets/boostrap.png", "descripcion", "https://github.com/Aranthiel/PruebaBoostrap5"),
-      new Proyecto (4, 0, "WebCompleta - Udemy", "../../../assets/Udemy_Web.png", "descripcion", "https://github.com/Aranthiel/Udemy_webCompleta"),
+      new Proyecto (4, 0, "WebCompleta - Udemy", "../../../assets/Udemy_01.png", "descripcion", "https://github.com/Aranthiel/Udemy_webCompleta"),
+      new Proyecto (4, 0, "MeTCaMP React", "../../../assets/MeTCaMP_01.png", "descripcion", "https://aranthiel.github.io/MeTCaMP2022_React/"),
 
     ]
 

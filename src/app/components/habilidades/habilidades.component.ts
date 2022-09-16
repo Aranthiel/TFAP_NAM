@@ -8,6 +8,7 @@ import { Habilidad } from '../../models/skill';
 })
 export class HabilidadesComponent implements OnInit {
   public misHardSkills:Array<Habilidad>;
+  public misSoftSkills:Array<Habilidad>;
 
   constructor() {
     this.misHardSkills=[
@@ -23,7 +24,15 @@ export class HabilidadesComponent implements OnInit {
       new Habilidad (0,0,0,0,"Angular",70, "../../../assets/gangxxs.png" ),
       new Habilidad (0,0,0,0,"Git y GitHub",70, "../../../assets/gangxxs.png" ),
       new Habilidad (0,0,0,0,"Ingles",85, "../../../assets/gangxxs.png" )
-    ]
+    ];
+
+    this.misSoftSkills=[
+      new Habilidad (0,0,0,0,"Trabajo en equipo",95, "../../../assets/gangxxs.png" ),
+      new Habilidad (0,0,0,0,"Iniciativa",90, "../../../assets/gangxxs.png" ),
+      new Habilidad (0,0,0,0,"Resolucion de problemas",85, "../../../assets/gangxxs.png" ),
+      new Habilidad (0,0,0,0,"Comunicación",90, "../../../assets/gangxxs.png" ),
+      new Habilidad (0,0,0,0,"Flexibilidad",85, "../../../assets/gangxxs.png" )
+    ];
   }
 
   ngOnInit(): void {

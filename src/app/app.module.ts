@@ -27,6 +27,7 @@ import { HttpClientModule  } from '@angular/common/http';
 import { HomePageComponent } from './pages/homepage/homepage.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ContactformComponent } from './components/contactform/contactform.component';
+import { GitHubComponent } from './components/git-hub/git-hub.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { ContactformComponent } from './components/contactform/contactform.compo
     HomePageComponent,
     LoginComponent,
     ContactformComponent,
+    GitHubComponent,
   ],
   imports: [
     BrowserModule,
