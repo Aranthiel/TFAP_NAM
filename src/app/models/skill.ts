@@ -14,6 +14,6 @@ export class Habilidad {
   public nivel_skill_id: number, // este elemento hace referencia a la clase NivelSkill --
   public nombreSkill:string,
   public porcentaje:number,
-  public urlIcono: String,
+  public urlIcono: string,
   ){}
 }
