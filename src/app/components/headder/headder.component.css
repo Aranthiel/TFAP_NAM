@@ -1,0 +1,100 @@
+div.container-fluid{
+  padding:0px;
+}
+@media (min-width:576px){/*
+.container-fluid{
+  width:90vw;
+  margin:0px auto;
+}*/
+  #banner{
+    position:relative;
+    max-height: 444px;
+    width:100%;
+  }
+
+.row {
+  padding:0px;
+  left:10px
+}
+
+#row1{
+  /* tiene app-logo-ap en la primer columna y app-social-nets en la segunda columna*/
+  /*background-color: pink;*/
+  display:flex;
+  justify-content:space-around;
+  position: absolute;
+  top:0px;
+  left:0px
+}
+app-logo-ap{
+  position: absolute;
+  left: 0px;
+  top:5%;
+  margin-left: 1.5%;
+}
+
+app-social-nets{
+  position: absolute;
+  right: 0px;
+  top:5%;
+  /*background-color: aqua;*/
+}
+app-btn-login{
+  /*background-color: purple;*/
+  position: absolute;
+  bottom: 2.5%;
+  right:1.5%;
+}
+app-about{
+  position:absolute;
+  line-height:55%;
+  bottom: 0%;
+  width:54%;
+  left:1.5%;
+  /*background-color:forestgreen;*/
+}
+#row2{
+  /* esta fila tiene vavcìa la primer columna y tiene el boton login en la segunda columna*/
+  /*background-color: purple;*/
+  position: absolute;
+
+  width: inherit;
+  display:flex;
+  justify-content:flex-end;
+  align-self: center;
+}
+#row3{
+  /* esta fila contiene el app-about en la primer columna y la segunda columna esta vacía*/
+  /*background-color: orchid;*/
+  width: 50vw;
+  position:absolute;
+  top:44.5vh;
+  display:flex;
+  justify-content:space-between;
+  align-self: flex-end;
+  }
+}/* fin del media query*/
+@media (max-width:575px){
+  #banner{
+    position:relative;
+    width:100%;
+  }
+
+app-logo-ap{
+  display:none;
+}
+
+app-log-in{
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  margin-left: 1.5%;
+}
+app-social-nets{
+  position: absolute;
+  right: 0px;
+  top:5px;
+  /*background-color: aqua;*/
+}
+
+}

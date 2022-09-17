@@ -1,0 +1,14 @@
+#banner {
+  width: 100%;
+  /*height:56vh;*/
+  /*max-height: 15rem;*/
+  padding:0px;
+  margin:auto;
+  background-color: none;
+  /*background:url(../../../assets/NAM_BannerWIDE.png);*/
+ /* background-image: url(../../../assets/NAM_BannerWIDE.png);*/
+  background-repeat: no-repeat;
+  background-size:contain;
+  display:inline-block;
+  justify-content:space-between;
+}

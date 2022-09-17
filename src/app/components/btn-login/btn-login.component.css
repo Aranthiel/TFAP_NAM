@@ -1,0 +1,10 @@
+div{
+  height: 10%;
+  width: 10vw;
+  /*background-color: yellowgreen;*/
+  margin: auto;
+  display: flex;
+  justify-content:flex-end;
+  /*align-items: flex-end;*/
+
+}

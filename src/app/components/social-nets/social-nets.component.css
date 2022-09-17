@@ -1,0 +1,7 @@
+div{
+  display:inline-flex;
+  width:30vw;
+  justify-content: space-around;
+  vertical-align: center;
+  /*background-color: aqua;*/
+}

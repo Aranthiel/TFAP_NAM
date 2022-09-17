@@ -1,0 +1,35 @@
+*{
+  color: #373b41;
+
+}
+.accordion {
+  --bs-accordion-color:  #373b41;
+  --bs-accordion-btn-icon: url(../../../assets/flechaO.png);
+  --bs-accordion-btn-active-icon: url(../../../assets/flechaG.png);
+  --bs-accordion-btn-focus-border-color: #df7f00;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(55, 59, 65, 0.25);
+  --bs-accordion-active-color: #373b41;
+}
+#title{
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+.row{
+  vertical-align: end;
+}
+a{
+  text-decoration: none;
+  color: #373b41;
+}
+h4{
+  text-transform: uppercase;
+}
+
+.accordion-item .accordion-button {
+  background-color: #efbf2d;
+}
+.title{font-size:24px;font-weight:600;color:#373b41;text-transform:uppercase; margin:10px }
+.description{font-size:14px; font-weight:600; color:#373b41; text-align:start; text-transform:uppercase; margin-left:10px; margin-right:10px}
+.information{font-size:14px; color:#373b41; text-align:start; margin-left:10px; margin-right:10px }

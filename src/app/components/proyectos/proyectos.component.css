@@ -1,0 +1,33 @@
+*{
+  color: #373b41;
+
+}
+
+#title{
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+.row{
+  vertical-align: end;
+
+}
+a{
+  text-decoration: none;
+}
+
+.title{font-size:24px;font-weight:600;color:#373b41;text-transform:uppercase; margin:10px }
+.description{font-size:14px; font-weight:600; color:#373b41;margin:0px; text-align:start; text-transform:uppercase; margin:10px }
+.row.proyecto{
+  height: 12rem;;
+  margin: 25px;
+  background-color: #efbf2d;
+  display:flex;
+}
+img{
+  box-shadow: 10px 10px 30px #373b41;
+  vertical-align:center;
+  height: 10rem;
+  margin: 1rem;
+}
