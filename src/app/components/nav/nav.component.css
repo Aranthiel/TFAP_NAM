@@ -14,3 +14,6 @@ div{
 .navbar-expand-sm .navbar-collapse {
   justify-content: flex-end;
 }
+a:hover {
+  color:  #df7f00;
+}

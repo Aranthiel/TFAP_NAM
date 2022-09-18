@@ -1,0 +1,30 @@
+*{
+  background-color: #373b41;
+  color: #efbf2d;
+
+}
+
+a{
+  text-decoration: none;
+  margin: 10px;
+}
+a:hover {
+  color:  #df7f00;
+}
+
+img{
+  max-width: 25vw;
+  padding:auto;
+  margin: auto;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  max-height:100vh;
+  color: #efbf2d;
+  padding:12%;
+}
+/* .flex-item{
+  background-color: fuchsia;
+
+} */

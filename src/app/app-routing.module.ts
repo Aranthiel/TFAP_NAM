@@ -8,6 +8,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ContactPageComponent} from './pages/contactpage/contactpage.component'
+import { Error404Component } from './pages/error404/error404.component';
 
 const routes: Routes = [
   {    path:'', component: HomePageComponent   },
@@ -17,7 +18,8 @@ const routes: Routes = [
   {    path:'jobs', component: ExperienciaComponent   },
   {    path:'education', component: EducacionComponent   },
   {    path:'skills', component: HabilidadesComponent   },
-  {    path:'proyects', component: ProyectosComponent  }
+  {    path:'proyects', component: ProyectosComponent  },
+  {    path:'404', component: Error404Component  }
 
 ];
 
