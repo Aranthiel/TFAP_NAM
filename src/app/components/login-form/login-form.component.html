@@ -1,0 +1,65 @@
+<!--Section: Login v.2-->
+<div class="container ">
+  <div class="row justify-content-center margin-top-1">
+    <!--Section heading-->
+    <h2 id="title">Logueate</h2>
+    <!--Section description-->
+    <!--Grid column-->
+    <div class="col-md-12 mb-md-0 mb-5">
+      <form id="login-form" name="login-form">
+        <!--Grid row-->
+        <div class="row justify-content-center">
+          <!--Grid column-->
+          <div class="col-md-6 ">
+            <div class="md-form mb-2 ">
+              <input type="email" id="loginmail" class="form-control" />
+              <label for="loginmail">Email</label>
+            </div>
+          </div>
+        </div>
+
+        <!--Grid row-->
+        <div class="row justify-content-center">
+          <!--Grid column-->
+          <div class="col-md-6 ">
+            <div class="md-form mb-2 ">
+              <input type="password" id="password" class="form-control" />
+              <label for="password">Contraseña</label>
+            </div>
+          </div>
+        </div>
+
+    <!-- 2 column grid layout for inline styling -->
+    <div class="row justify-content-evenly">
+
+
+      <div class="col d-flex justify-content-center ">
+        <!-- Checkbox -->
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+          <label class="form-check-label " for="form2Example31"> Recordarme </label>
+        </div>
+      </div>
+
+
+      <div class="col text-center">
+        <!-- Simple link -->
+        <a href="/404">Olvidé mi contraseña</a>
+      </div>
+
+    </div>
+
+    <!-- Submit button -->
+    <div class="text-center text-md-left">
+      <button type="button" class="btn btn-block mb-4" (click)="ingresar()">Ingresar</button>
+    </div>
+    <div class="status"></div>
+
+    <!-- Register buttons -->
+    <div class="text-center">
+      <p>Todavia no sos miembro? <a href="/registro">Registrate</a></p>
+
+    </div>
+  </form>
+</div>
+</div>

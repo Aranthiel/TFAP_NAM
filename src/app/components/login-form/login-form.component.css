@@ -9,7 +9,11 @@
   font-weight: bold;
   text-transform:uppercase;
 }
-
+/* .row{
+  vertical-align: end;
+  justify-content: center;
+  margin-top: 20px;
+} */
 a{
   text-decoration: none;
 }
@@ -31,10 +35,7 @@ a{
 .margin-top-1{
   margin-top: 1rem;
 }
-.form-check-input:checked {
-  background-color: #df7f00;
-  border-color: #df7f00;
-}
+
 .btn:hover {
   color: #373b41;
   background-color: #df7f00;
@@ -45,4 +46,8 @@ a:hover {
 }
 .centrado{
   margin:0 auto;
+}
+.form-check-input:checked {
+  background-color: #df7f00;
+  border-color: #df7f00;
 }

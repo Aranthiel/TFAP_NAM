@@ -9,17 +9,18 @@
   font-weight: bold;
   text-transform:uppercase;
 }
-.row{
+/* .row{
   vertical-align: end;
   justify-content: center;
   margin-top: 20px;
-}
+} */
 a{
   text-decoration: none;
 }
 
 .container{
   background-color:#efbf2d;
+  margin: 1rem auto;
 }
 .btn{
   font-weight: bold;
@@ -30,6 +31,24 @@ a{
   color: #efbf2d;
   margin:1rem;
 }
-.social {
-  margin-top: 20px;
+
+.margin-top-1{
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  color: #373b41;
+  background-color: #df7f00;
+  border-color: #df7f00;
+}
+a:hover {
+  color:  #df7f00;
+}
+.centrado{
+  margin:0 auto;
+}
+.social
+{
+  padding-bottom:1rem;
+  justify-content: center;
 }

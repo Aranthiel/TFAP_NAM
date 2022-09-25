@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-rl-form',
-  templateUrl: './rl-form.component.html',
-  styleUrls: ['./rl-form.component.css']
+  selector: 'app-login-form',
+  templateUrl: './login-form.component.html',
+  styleUrls: ['./login-form.component.css']
 })
-export class RlFormComponent implements OnInit {
+export class LoginFormComponent implements OnInit {
 
   constructor(private router:Router) { }
 

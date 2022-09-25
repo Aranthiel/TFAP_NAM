@@ -28,7 +28,7 @@ import { HomePageComponent } from './pages/homepage/homepage.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ContactformComponent } from './components/contactform/contactform.component';
 import { GitHubComponent } from './components/git-hub/git-hub.component';
-import { RlFormComponent } from './components/rl-form/rl-form.component';
+import { LoginFormComponent } from './components/login-form/login-form.component';
 import { Error404Component } from './pages/error404/error404.component';
 import { RegisterFormComponent } from './components/register-form/register-form.component';
 
@@ -58,7 +58,7 @@ import { RegisterFormComponent } from './components/register-form/register-form.
     LoginComponent,
     ContactformComponent,
     GitHubComponent,
-    RlFormComponent,
+    LoginFormComponent,
     Error404Component,
     RegisterFormComponent,
   ],

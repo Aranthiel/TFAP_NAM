@@ -14,7 +14,7 @@ export class Experiencia {
   public empresa:string,
   public fecha_inicio: string,
   public anio_inicio:string,
-  public fecha_fin: String,
+  public fecha_fin: string,
   public descripcion:string,
   ){}
 }

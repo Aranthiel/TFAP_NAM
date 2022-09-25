@@ -1,35 +1,101 @@
-<div class="container ">
+<!--Section: Registro-->
+<div class="container">
   <div class="row justify-content-center margin-top-1">
-    <form class="margin-top-1">
-      <div class="centrado col-6 align-items-center margin-top-1">
-          <!-- username input -->
-        <div class="form-outline mb-2 ">
-          <input type="email" id="form2Example1" class="form-control" />
-          <label class="form-label" for="form2Example1">Nombre de usuario</label>
-        </div>
+    <!--Section heading-->
+    <h2 id="title">Resgistrate</h2>
+    <!--Section description-->
+    <!--Grid column-->
+    <div class="col-md-12 mb-md-0 mb-5">
+      <form id="register-form" name="register-form">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="name" name="name" class="form-control" />
+              <label for="name" class="">Nombre</label>
+            </div>
+          </div>
+          <!--Grid column-->
 
-        <!-- Email input -->
-        <div class="form-outline mb-2 ">
-          <input type="email" id="form2Example1" class="form-control" />
-          <label class="form-label" for="form2Example1">Email</label>
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="surname" name="surname" class="form-control"/>
+              <label for="surname" class="">Apellido</label>
+            </div>
+          </div>
+          <!--Grid column-->
         </div>
+        <!--Grid row-->
 
-        <!-- Password input -->
-        <div class="form-outline mb-2 ">
-          <input type="password" id="password" class="form-control" />
-          <label class="form-label" for="form2Example2">Contraseña</label>
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="username" name="username" class="form-control" />
+              <label for="username" class="">Nombre de usuario</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="email" name="email" class="form-control" />
+              <label for="email" class="">Email</label>
+            </div>
+          </div>
+          <!--Grid column-->
         </div>
-        <!-- Password confirm -->
-       <div class="form-outline mb-2 ">
-          <input type="password" id="confirmPassword" class="form-control" />
-          <label class="form-label" for="form2Example2">Contraseña (confirmación)</label>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="form-control"
+              />
+              <label for="password" class="">Contraseña</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                class="form-control"
+              />
+              <label for="confirmPassword" class=""
+                >Contraseña (confirmación)</label
+              >
+            </div>
+          </div>
+          <!--Grid column-->
         </div>
-      </div>
+      </form>
 
       <!-- Submit button -->
-      <div class="row text-center justify-content-center">
-        <button type="button" class="btn btn-block mb-4" (click)="registrarme()">Registrarme</button>
+      <div class="text-center text-md-left">
+        <button
+          type="button"
+          class="btn btn-block mb-4"
+          (click)="registrarme()"
+        >
+          Registrarme
+        </button>
       </div>
-    </form>
+      <div class="status"></div>
+    </div>
   </div>
 </div>
