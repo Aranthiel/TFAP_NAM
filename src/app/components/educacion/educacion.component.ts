@@ -11,6 +11,7 @@ export class EducacionComponent implements OnInit {
   constructor() {
     this.misEstudios=[
      /*  new Educacion (0,0,"carrera", "institucion", "fecha_inicio","fecha_fin", "tipo_Educacion", "estado" ), */
+      new Educacion (0,0,"Desarrollo Full Stack", "CoderHouse", "Diciembre 2022","", "Capacitación", "En curso" ),
       new Educacion (0,0,"Tecnicatura Superior en Diseño Web y Aplicaciones Digitales", "ISPC", "Marzo 2022","", "Terciaria", "En curso" ),
       new Educacion (1,0,"Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS", "Udemy", "Junio 2022","", "Capacitación", "En curso" ),
       new Educacion (2,0,"#Argentina Programa", "INTI", "Octubre 2021","Octubre 2022", "Capacitación", "Finalizado" ),
@@ -25,3 +26,4 @@ export class EducacionComponent implements OnInit {
   }
 
 }
+
