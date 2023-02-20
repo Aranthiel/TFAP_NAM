@@ -31,6 +31,7 @@ import { GitHubComponent } from './components/git-hub/git-hub.component';
 import { LoginFormComponent } from './components/login-form/login-form.component';
 import { Error404Component } from './pages/error404/error404.component';
 import { RegisterFormComponent } from './components/register-form/register-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -64,11 +65,10 @@ import { RegisterFormComponent } from './components/register-form/register-form.
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({
-      // set defaults here
-    })
+    FormsModule,
+    HttpClientModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

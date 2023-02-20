@@ -13,6 +13,7 @@ export class Proyecto {
   public titulo:string,
   public url_captura:string,
   public descripcion:string,
+  public url_deploy:string,
   public url_repositorio:string,
   ){}
 }

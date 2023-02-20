@@ -4,7 +4,7 @@
 export class Persona {
 
   constructor(
-  public nombre:string,
+  public nombreUsuario:string,
   public titulo:string,
   public about:string,
 // atributos opcionales
@@ -12,7 +12,7 @@ export class Persona {
   public url_linkedin?:string,
   public url_github?:string,
   public url_banner?:string,
-  public contrasenia?:string,
+  public password?:string,
   // el id se toma como opcional ya que es autogenerado (?)
   public persona_id?: number,
   ){}

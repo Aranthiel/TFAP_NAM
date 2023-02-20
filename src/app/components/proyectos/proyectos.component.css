@@ -20,7 +20,9 @@ a{
 .title{font-size:24px;font-weight:600;color:#373b41;text-transform:uppercase; margin:10px }
 .description{font-size:14px; font-weight:600; color:#373b41;margin:0px; text-align:start; text-transform:uppercase; margin:10px }
 .row.proyecto{
-  height: 12rem;;
+  min-height: 12rem;
+  height: auto;
+  max-height: 15rem;
   margin: 25px;
   background-color: #efbf2d;
   display:flex;
@@ -30,4 +32,21 @@ img{
   vertical-align:center;
   height: 10rem;
   margin: 1rem;
+}
+
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+}
+.btnRepositorio{
+  background-color: #df7f00 ;
+  width: 15rem;
+  border-radius: 2rem;
+  padding:0.5rem 1rem;
+  text-transform: uppercase;
+  color: #17191b;
+  border: none;
+  box-shadow: 10px 10px 30px #df7f00;
+  margin-bottom: 2.5rem;
+
 }
