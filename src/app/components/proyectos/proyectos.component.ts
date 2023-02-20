@@ -12,6 +12,7 @@ export class ProyectosComponent implements OnInit {
 
   constructor() {
     this.misProyectos= [
+      /*  new Proyecto (proyecto_id, persona_id, "titulo", "url_captura", "descripcion", "url_deploy", "url_repositorio"), */
 
       new Proyecto (6, 0, "Hub Recircular", "../../../assets/ImgProyectos/HubRecircular25.png", "Proyecto final de la etapa de Diseño web de CoderHouse: Proyecto con 5 archivos HTML vinculados por navegación interna, que utilize GRID y FLEXBOX para la maquetación. Utiliza elementos de BOOTSTRAP. Aplica estilos utilizando SASS y CSS. Incorpora etiquetas meta para SEO", "https://namcoderhtp1.netlify.app/", "https://github.com/Aranthiel/CH-TP1"),
 
